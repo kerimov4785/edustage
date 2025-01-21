@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background:linear-gradient(30deg , rgba(0, 35, 71, 0.8),  rgba(0, 35, 71, 0.8)) , url(banner.jpg.webp)center / cover;
+    height: 390px;
+}
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.generaldiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+}
+
+nav {
+    display: flex;
+    width: 45%;
+    justify-content: space-between;
+    font: 600 14px 'Rubik';
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: .4s;
+}
+
+nav a[type='contact'] {
+    color: #f0c457;
+}
+
+nav a:hover {
+    color: #f0c457;
+}
+
+.fa-magnifying-glass {
+    margin-left: 50px;
+}
+
+.headertext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:250px;
+    text-transform:capitalize;
+    color: #ffffff;
+}
+.headertext p {
+    font:15px 'Roboto';
+}
+
+.headertext h1 {
+    font: 500 45px 'Rubik';
+}
+iframe{
+    width: 100%;
+    height: 400px;
+    margin: 100px 0;
+}
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: #012347;
+}
+.link{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 200px;
+}
+.flinks{
+    padding: 90px 0;
+    display: flex;
+    justify-content: space-between;
+
+}
+.link h4{
+    font: 500 18px 'Rubik';
+    color: white;
+    margin-bottom: 20px;
+}
+.link a{
+    font: 400 16px 'Roboto';
+    text-decoration: none;
+    color: #566e7f;
+}
+.link input::placeholder{
+    font-family: 'Roboto';
+    font-size: 14px;
+
+}
+.link input{
+    background-color: #344f6c;
+    border: none;
+    padding: 13px 60px 13px 20px;
+    outline: none;
+    color: white;
+}
+.link .subcribe{
+    text-align: center;
+    font: 500 14px 'Rubik';
+    text-transform: uppercase;
+    color: #002247;
+    background-color: #fec633;
+    padding: 10px 0;
+    width: 120px;
+}
+.links2{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-bottom: 120px;
+}
+.links2 p{
+    font: 16px 'Roboto';
+    color: white;
+}
+.apps i{
+    cursor: pointer;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    background-color: #344f6c;
+    padding: 13px 0;
+    width:40px ;
+    transition: .3s;
+}
+.apps i:hover{
+    color: #002247;
+    background-color: #fec633;
+}
